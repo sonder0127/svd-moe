@@ -20,7 +20,7 @@ flowchart TB
     G -->|model| I[fine-tune]
 
 
-    I -->|model| K[save_compress_model]
+    I -->|model| K[save_compressed_model]
 
     K -->|model.pt| M[Evaluate]
 
